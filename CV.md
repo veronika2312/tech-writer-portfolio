@@ -30,7 +30,7 @@ non-technical audience
 • Studied DevOps principles and various tools, such as Git, Bash,
 Python. Docker, Kubernetes, Jenkins.
 
-## Employment History
+### Employment History
 
 ### Enlish language Tutor at JustSchool, Kharkiv
 **2020 — February 2022**
