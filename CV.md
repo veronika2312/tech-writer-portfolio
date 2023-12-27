@@ -3,7 +3,7 @@
 ## Contact Information
 - **Email:** veronika.krasilia@gmail.com
 - **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/veronika--krasilia)
-- **GitHub:** [GitHub Portfolio](https://github.com/veronika2312/tech-writer-portfolio)
+- **GitHub:** [GitHub Portfolio](https://github.com/veronika2312/tech-writer-portfolio/tree/cloud-mentor-project)
 - **Location:** Kharkiv, Ukraine
 
 ## Summary
