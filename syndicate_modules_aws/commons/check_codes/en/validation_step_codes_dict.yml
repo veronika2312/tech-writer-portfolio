@@ -1,0 +1,43 @@
+IM01: Verify if the lambda with the expected name exists.
+IM02: Confirm if the runtime is correct.
+IM03: Check if the lambda function URL is configured.
+IM04: Validate the existence of an API gateway with the correct name.
+IM05: Confirm the presence of the correct resource within the API gateway.
+IM06: Check for the existence of an SQS queue with the correct name.
+IM07: Ensure that the lambda trigger is properly configured, coupled to the correct SQS queue ARN.
+IM08: Verify the existence of the SNS topic with the correct name.
+IM09: Confirm the proper configuration of the lambda trigger, coupled to the correct SNS topic ARN.
+IM10: Check for the existence of the DynamoDB table with the correct name.
+IM11: Validate the correctness of the DynamoDB table data model.
+IM12: Ensure the proper configuration of the lambda trigger, coupled to the correct DynamoDB stream ARN.
+IM13: Confirm the existence of the lambda layer.
+IM14: Validate that the XRay service is configured properly.
+IM15: Check for the existence of the EventBridge rule with the correct name.
+IM16: Ensure the proper configuration of the lambda trigger, coupled to the correct EventBridge rule ARN.
+IM17: Verify the existence of an S3 bucket with the correct name.
+IM18: Confirm the presence of the Cognito User Pool with the correct name.
+
+LM01: Confirm if the response is correct when invoked via a test event.
+LM02: Verify if the response is correct when invoked via URL.
+LM03: Check if the message appears in CloudWatch logs after sending it to the SQS queue.
+LM04: Ensure that the message is present in CloudWatch logs after publishing it to the SNS topic.
+LM05: Confirm the existence of the correct event in the DynamoDB table.
+LM06: Verify the presence of the correct event in the Audit DynamoDB table after adding an item to the Configuration DynamoDB table.
+LM07: Confirm the presence of the correct event in the Audit DynamoDB table after updating an item in the Configuration DynamoDB table.
+LM08: Confirm that everything is working without a layer.
+LM09: Verify the presence of records in the XRay logs after lambda invocation.
+LM10: Confirm the expected number of files in the S3 bucket after the scheduler trigger.
+LM11: Verify the presence of files with expected names in the S3 bucket after the scheduler trigger.
+LM12: Confirm the presence of expected content in the S3 bucket files after the scheduler trigger.
+LM13: Verify that signup with valid data works correctly.
+LM14: Confirm that signup with an invalid email is handled correctly.
+LM15: Verify that signup with an invalid password is handled correctly.
+LM16: Confirm that signing in with valid data works correctly.
+LM17: Verify that signing in with invalid data is handled correctly.
+LM18: Confirm that the process 'add table' works correctly.
+LM19: Verify that the process 'describe tables' works correctly.
+LM20: Confirm that the process 'describe table by id' works correctly.
+LM21: Verify that the process 'add reservation' with valid data works correctly.
+LM22: Confirm that the process 'add reservation' with data that overlaps existent reservation is handled correctly.
+LM23: Verify that the process 'add reservation' for a non-existent table is handled correctly.
+LM24: Confirm that the process 'reservation describe' works correctly.
