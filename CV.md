@@ -51,7 +51,7 @@ one-on-one/group tutoring sessions
 • Worked mainly with AI-powered inviroments for translation
 automatisation "Smartcat", "Memsource"
 
-• I was engaged in translation of manuals/documentation for
+• Was engaged in translation of manuals/documentation for
 auto-products, household appliances and IT solutions
 
 
